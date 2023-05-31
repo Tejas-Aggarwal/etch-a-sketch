@@ -1,0 +1,54 @@
+html{
+    background-color: rgb(216, 216, 137);
+}
+
+.sketch{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container-and-button{
+    display: flex;
+}
+
+.reset{
+    position: absolute;
+    left: 300px;
+    top:350px;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: large;
+    background-color: grey;
+    border-color: grey;
+    
+    
+}
+
+.container{
+
+    width: 512px;
+    height: 512px;
+    margin: 0 auto; /* Set left and right margin to auto */
+    display: grid;
+    background-color: rgb(250, 244, 244);
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    position: fixed;
+    left: 0;
+    right: 0; /* Set left and right to 0 for center alignment */
+    
+    
+    
+}
+
+.grid{
+    width:auto;
+    height:auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+
+
+ 
